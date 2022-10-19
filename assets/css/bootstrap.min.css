@@ -3622,7 +3622,7 @@ fieldset:disabled .btn {
   border-top-right-radius: 0;
 }
 .nav {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom: 0;
