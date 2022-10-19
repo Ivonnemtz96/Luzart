@@ -102,40 +102,38 @@ if (isset($_GET)) {
 		<div id="box_wrapper">
 			<!-- template sections -->
 			<!--topline section visible only on small screens|-->
-			<section class="page_topline ls ms c-my-10">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-12 d-flex">
-							<!--<div class="me-auto me-4">
-								<span class="social-icons">
-
-									<span class="color-dark small-text me-4">
-										Síguenos:
-									</span>
-
-									<a href="#" class="fa fa-facebook @@iconClass" title="facebook"></a>
-									 <a href="#" class="fa fa-twitter @@iconClass" title="twitter"></a> 
-									<a href="#" class="fa fa-instagram @@iconClass" title="instagram"></a>
-
-								</span>
-							</div>-->
+			<section class="page_topline ls ms c-my-10" style="z-index: 99999;">
+				<div class="container">
+					<div class="row h-100 justify-content-center text-center">
+						<div class="col-11  align-items-center d-flex">
 							<div>
 								<div id="topline_dropdown" class="dropdown meta-dropdown">
-									<span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+									<!-- <span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
 										<span></span>
-									</span>
-									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown">
+									</span> -->
+									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown" style="font-size:12px ;">
 										<li class="icon-inline">
 											<span class="meta-item"><i class="ico-clock"></i>Lunes-Viernes : 9:00 a 18:00 - Sabado 10:00 a 2:00 pm</span>
 										</li>
 										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-phone"></i><a href="tel:3311729300">331 172 9300</a></span>
+											<span class="meta-item"><i class="ico-phone"></i><a href="tel:3328343793">332 834 3793</a></span>
 										</li>
 										<li class="icon-inline">
 											<span class="meta-item"><i class="ico-send"></i><a href="mailto:contacto@distribuidoraluzart.com"><span class="__cf_email__">contacto@distribuidoraluzart.com</span></a></span>
 										</li>
-										<li class="icon-inline">
+										<!-- <li class="icon-inline">
 											<span class="meta-item"><i class="ico-pin"></i>GDL. Jal, George Santayana, Col. Jardines Universidad 45110</span>
+										</li> -->
+									</ul>
+
+									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown" style="font-size:12px ;">
+										<li class="icon-inline">
+											<span class="meta-item"><i class="ico-pin">
+												</i>Monaco, Italia Providencia,44648 Guadalajara, Jalisco &nbsp; / &nbsp; Periférico Paseo de la República 2128, Bosque Camelinas, Morelia, Michoacán 58290
+											</span>
+										</li>
+										<li class="icon-inline">
+											<span class="meta-item"><i class="ico-pin"></i><b>Oficinas</b> Medica Camelinas</span>
 										</li>
 									</ul>
 								</div>
@@ -166,7 +164,7 @@ if (isset($_GET)) {
 							<div class="container-fluid">
 								<div class="row">
 									<div class="col-12">
-										<div class="intro_layers">
+										<div hidden class="intro_layers">
 											<div class="intro_layer" data-animation="fadeInRight">
 												<div class="d-inline-block">
 													<h3 class="emptytext bigger text-uppercase">Luz Art</h3>
@@ -556,7 +554,38 @@ if (isset($_GET)) {
 										<img src="assets/images/firm/5.png" alt="firm">
 									</a>
 								</div>
+
+								<div>
+									<a href="#">
+										<img src="assets/images/firm/10.png" alt="firm">
+									</a>
+								</div>
+
+								<div>
+									<a href="#">
+										<img src="assets/images/firm/9.png" alt="firm">
+									</a>
+								</div>
+
+								<div>
+									<a href="#">
+										<img src="assets/images/firm/8.png" alt="firm">
+									</a>
+								</div>
+
+								<div>
+									<a href="#">
+										<img src="assets/images/firm/7.png" alt="firm">
+									</a>
+								</div>
+
+								<div>
+									<a href="#">
+										<img style="width: 10rem;" src="assets/images/firm/6.png" alt="firm">
+									</a>
+								</div>
 							</div>
+
 						</div>
 					</div>
 				</div>
@@ -629,7 +658,7 @@ if (isset($_GET)) {
 							</p>
 							<div class="divider-40 divider-xl-50"></div>
 							<h6 class="special-heading">
-								<span>Guadalajara, Jalisco, George Santayana #4962, Colonia Jardines Universidad C.P. 45110.</span>
+								<span>Monaco, Italia Providencia,44648 Guadalajara, Jalisco</span>
 							</h6>
 							<h6 class="special-heading my-3">
 								<span><a href="tel:+523328343793">33 2834 3793</a></span> <br><br>

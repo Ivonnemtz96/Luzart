@@ -211,38 +211,37 @@
 			<!-- template sections -->
 			<!--topline section visible only on small screens|-->
 			<section class="page_topline ls ms c-my-10">
-				<div class="container-fluid">
-					<div class="row align-items-center">
-						<div class="col-12 d-flex">
-							<!-- <div class="me-auto me-4">
-								<span class="social-icons">
-
-									<span class="color-dark small-text me-4">
-										Síguenos:
-									</span>
-
-									<a href="#" class="fa fa-facebook @@iconClass" title="facebook"></a>
-									<a href="#" class="fa fa-instagram @@iconClass" title="google"></a>
-
-								</span>
-							</div> -->
-							<div>
+				<div class="container">
+					<div class="row h-100 justify-content-center text-center">
+						<div class="col-11 align-items-center d-flex ">
+							<div class="">
 								<div id="topline_dropdown" class="dropdown meta-dropdown">
-									<span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
+									<!-- <span id="toplineDropdown" class="nav-btn type-dots dark" data-bs-toggle="dropdown" aria-expanded="false" role="button">
 										<span></span>
-									</span>
+									</span> -->
 									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown" style="font-size:12px ;">
 										<li class="icon-inline">
 											<span class="meta-item"><i class="ico-clock"></i>Lunes-Viernes : 9:00 a 18:00 - Sabado 10:00 a 2:00 pm</span>
 										</li>
 										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-phone"></i><a href="tel:3311729300">331 172 930 0</a></span>
+											<span class="meta-item"><i class="ico-phone"></i><a href="tel:3328343793">332 834 3793</a></span>
 										</li>
 										<li class="icon-inline">
 											<span class="meta-item"><i class="ico-send"></i><a href="mailto:contacto@distribuidoraluzart.com"><span class="__cf_email__">contacto@distribuidoraluzart.com</span></a></span>
 										</li>
+										<!-- <li class="icon-inline">
+											<span class="meta-item"><i class="ico-pin"></i>Monaco, Italia Providencia,44648 Guadalajara, Jalisco &nbsp; / &nbsp; Periférico Paseo de la República 2128, Bosque Camelinas, Morelia, Michoacán 58290
+											</span>
+										</li> -->
+									</ul><br>
+									<ul class="dropdown-menu dropdown-menu-md site-meta" aria-labelledby="toplineDropdown" style="font-size:12px ;">
 										<li class="icon-inline">
-											<span class="meta-item"><i class="ico-pin"></i>Guadalajara Jal, George Santayana, Col. Jardines Universidad 45110</span>
+											<span class="meta-item"><i class="ico-pin">
+												</i>Monaco, Italia Providencia,44648 Guadalajara, Jalisco &nbsp; / &nbsp; Periférico Paseo de la República 2128, Bosque Camelinas, Morelia, Michoacán 58290
+											</span>
+										</li>
+										<li class="icon-inline">
+											<span class="meta-item"><i class="ico-pin"></i><b>Oficinas</b> Medica Camelinas</span>
 										</li>
 									</ul>
 								</div>
@@ -350,9 +349,9 @@
 					<div class="row text-center">
 						<div class="col-12">
 							<h2 style="font-size: 3rem;">
-									<strong>
-										Nuestros Productos
-									</strong>
+								<strong>
+									Nuestros Productos
+								</strong>
 							</h2>
 							<div class="divider-30 divider-xl-50"></div>
 						</div>
